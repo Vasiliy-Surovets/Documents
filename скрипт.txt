@@ -1,0 +1,11 @@
+gunzip 6.tar.gz
+tar -xvf 6.tar
+cat 4.txt
+base64 -d 3.base > test
+./Decod.exe
+cat good
+
+
+rm test
+rm 6.tar
+rm 4.txt 
